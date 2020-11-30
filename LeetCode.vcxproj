@@ -140,10 +140,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="189.RotateArray.c" />
-    <ClCompile Include="912.sortArray.c" />
+    <ClCompile Include="169. Majority Element.c" />
+    <ClCompile Include="189. RotateArray.c" />
+    <ClCompile Include="912. sortArray.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="50.power.c" />
+    <ClCompile Include="50. power.c" />
+    <ClCompile Include="292. NimGame.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

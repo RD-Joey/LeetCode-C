@@ -13,10 +13,8 @@ double myPow(double x, int n) {
     //if (n < 0) return 1 / myPower(x, -n);
     //return myPower(x, n);
 
-    long long N = n;
-    double result = 1, multiple = N < 0 ? 1 / x : x;
-    if (N < 0) N = -N;
-    for (; N; N >>= 1, multiple *= multiple)
-        if (N & 1) result *= multiple;
-    return result;
+    double result = 1;
+    for (long long N = (N = n) >= 0 ? N : -N; N; N >>= 1, x *= x)
+        if (N & 1) result *= x;
+    return n >= 0 ? result : 1 / result;
 }

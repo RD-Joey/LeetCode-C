@@ -18,13 +18,19 @@
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="189.RotateArray.c">
+    <ClCompile Include="169. Majority Element.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="50.power.c">
+    <ClCompile Include="50. power.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="912.sortArray.c">
+    <ClCompile Include="189. RotateArray.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="292. NimGame.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="912. sortArray.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

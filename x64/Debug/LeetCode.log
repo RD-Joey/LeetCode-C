@@ -1,7 +1,5 @@
-﻿  189.RotateArray.c
-C:\Users\asus\source\repos\LeetCode\LeetCode\189.RotateArray.c(48,39): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
-  912.sortArray.c
-  main.c
-  50.power.c
-  正在生成代码...
+﻿  169. Majority Element.c
+C:\Users\asus\source\repos\LeetCode\LeetCode\169. Majority Element.c(20,43): warning C4090: “函数”: 不同的“const”限定符
+C:\Users\asus\source\repos\LeetCode\LeetCode\169. Majority Element.c(20,43): warning C4028: 形参 1 与声明不同
+C:\Users\asus\source\repos\LeetCode\LeetCode\169. Majority Element.c(20,43): warning C4028: 形参 2 与声明不同
   LeetCode.vcxproj -> C:\Users\asus\source\repos\LeetCode\x64\Debug\LeetCode.exe

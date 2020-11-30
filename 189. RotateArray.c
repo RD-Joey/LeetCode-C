@@ -1,5 +1,5 @@
 static _Bool left = 0;
-void swap(int* nums, int size, int k);
+void swapGroups(int* nums, int size, int k);
 int GCD(int n, int m);
 
 void rotate(int* nums, int numsSize, int k) {
@@ -26,7 +26,7 @@ void rotate(int* nums, int numsSize, int k) {
     }
 }
 
-void swap(int* nums, int size, int k) {
+void swapGroups(int* nums, int size, int k) {
     if (k > size >> 1) {
         k = size - k;
         left = !left;
@@ -39,8 +39,8 @@ void swap(int* nums, int size, int k) {
     }
 
     if (k << 1 != size) {
-        if (left) swap(nums, size - k, k);
-        else swap(nums + k, size - k, k);
+        if (left) swapGroups(nums, size - k, k);
+        else swapGroups(nums + k, size - k, k);
     }
 }
 
